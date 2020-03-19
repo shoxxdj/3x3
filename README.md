@@ -18,11 +18,20 @@
 ### Cross
 ### F2L
 ### OLL
-### PLL
- #### Edges Perm 
-  ![Z Perm](img/pll/PLL-Z-perm.png) Z Perm
+### PLL 
+#### Todo :    
+
+#### Connues : 
+ ##### Edges Perm 
+ Z Perm
+ 
+  ![Z Perm](img/pll/PLL-Z-perm.png) 
    * (M2 U') (M2 U') M' (U2 M2 U2) (M' U2)
    * (M2 U') (M2 U') M (U2 M2 U2) (M U2)
    
-  ![Z Perm Inverse](img/pll/PLL-Z-Inverted-perm.png) Z Perm Inverse
+#### Bonus : 
+ ##### Edges Perm 
+ Z Perm Inverse
+ 
+  ![Z Perm Inverse](img/pll/PLL-Z-Inverted-perm.png) 
   * R' U' R2 U R U R' U' R U R U' R U' R' U2
