@@ -20,7 +20,8 @@
 ### OLL
 ### PLL
  #### Edges Perm 
-  * ![Z Perm](img/pll/PLL-Z-perm.png) Z Perm
-   (M2 U') (M2 U') M' (U2 M2 U2) (M' U2) || (M2 U') (M2 U') M (U2 M2 U2) (M U2)
-  * ![Z Perm Inverse](img/pll/PLL-Z-Inverted-perm.png) Z Perm Inverse
-  R' U' R2 U R U R' U' R U R U' R U' R' U2
+  ![Z Perm](img/pll/PLL-Z-perm.png) Z Perm
+   * (M2 U') (M2 U') M' (U2 M2 U2) (M' U2)
+   * (M2 U') (M2 U') M (U2 M2 U2) (M U2)
+  ![Z Perm Inverse](img/pll/PLL-Z-Inverted-perm.png) Z Perm Inverse
+  * R' U' R2 U R U R' U' R U R U' R U' R' U2
