@@ -1,5 +1,5 @@
 # 3x3 
-##Noms :
+## Noms :
 * Gauche a droite 
   * L ↓
   * M ↓
@@ -13,7 +13,7 @@
  * pas de nom 
  * B ↶ ( anti horraire ) 
  
-##Algs 
+## Algs 
 
 ### Cross
 ### F2L
