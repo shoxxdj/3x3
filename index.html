@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+ <link rel="stylesheet" type="text/css" href="/css/styles.css">
+ <style type="text/css">
+  .content-section {
+   min-height: 2000px;
+  }
+  .sidebar-section {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+  }
+
+
+  .sidebar-item {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+
+   /* Position the items */
+   // &:nth-child(2) { top: 25%; }
+   // &:nth-child(3) { top: 50%; }
+   // &:nth-child(4) { top: 75%; }
+  }
+
+
+  .make-me-sticky {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+
+   padding: 0 15px;
+  }
+
+
+
+  /* Ignore This, just coloring */
+  body {
+   background: #fff;
+  }
+
+  article {
+   background: #f1f1f1;
+   border-radius: 12px;
+   padding: 25px 0 600px;
+  }
+
+
+  .title-section, .content-section, .sidebar-section {
+   background: #fff;
+   // border-radius: 12px;
+   // border: solid 10px #f1f1f1; 
+  }
+
+  .title-section {
+   text-align: center;
+   padding: 50px 15px;
+   margin-bottom: 30px;
+  }
+
+  .content-section h2 {
+   text-align: center;
+   margin: 0;
+   padding-top: 200px;
+  }
+
+  .sidebar-item {
+   text-align: center;
+
+   h3 {
+    background: gold;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 0 100px; 
+    border-bottom: solid 1px #fff;
+   }
+  }
+  .l{
+   background-color: #eccc68;
+  }
+  .k{
+   background-color: #7bed9f;
+  }
+  .u{
+   background-color: #ffffff;
+  }
+ </style>
+</head>
+<body>
+
+	<article>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="title-section">
+						<h1>Basic Sticky Sidebar with Bootstrap 4</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2">
+
+					<div class="sidebar-item">
+						<div class="make-me-sticky">
+							<div class="card" >
+								<div class="card-body" style="text-align: left">
+									<p class="card-text">
+										<ul style="list-style: none">
+											<li>Gauche a droite
+												<ul style="list-style: none">
+													<li>L ↓</li>
+													<li>M ↓</li>
+													<li>R ↑</li>
+												</ul>
+											</li>
+											<li>Haut en bas
+												<ul style="list-style: none">
+													<li>U ←</li>
+													<li>pas de nom</li>
+													<li>D →</li>
+												</ul>
+											</li>
+											<li>Face a profondeur</li>
+											<li>F ↷ ( horraire )</li>
+											<li>pas de nom</li>
+											<li>B ↶ ( anti horraire )</li>
+										</ul>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-8">
+					<div class="content-section">
+						<nav class="navbar sticky-top navbar-light bg-light">
+       <a class="nav-link" href="#CROSS">Cross</a>
+       <a class="nav-link" href="#F2L">F2L</a>
+       <a class="nav-link" href="#OLL">OLL</a>
+       <a class="nav-link" href="#PLL">PLL</a>
+       <a class="nav-link" href="#4LL">4LL</a>
+      </nav>
+      <div id="PLL">
+      </div>
+
+      <div id="4LL">
+       <table class="table">
+        <tr>
+         <th>Image</th><th>Nom</th><th>Alg</th>
+        </tr>
+        <tr class="l">
+         <td><p>Z Perm</p></td>
+         <td><img src="/img/pll/PLL-Z-perm.png" alt="Z Perm" /></td>
+         <td>
+          <ul>
+           <li>(M2 U’) (M2 U’) M’ (U2 M2 U2) (M’ U2)</li>
+           <li>(M2 U’) (M2 U’) M (U2 M2 U2) (M U2)</li>
+           <li>R’ U’ R2 U R U R’ U’ R U R U’ R U’ R’ U2</li>
+          </ul>
+         </td>
+        </tr>
+        <tr class="k">
+         <td><p>H Perm</p></td>
+         <td><img src="/img/pll/PLL-H-perm.png" alt="Z Perm" /></td>
+         <td>
+          <ul>
+           <li>M2 U M2 U2 M2 U M2</li>
+          </ul>
+         </td>
+        </tr>
+        <tr class="k">
+         <td><p>Ua Perm</p></td>
+         <td><img src="/img/pll/PLL-Ua-perm.png" alt="Z Perm" /></td>
+         <td>
+          <ul>
+           <li>R2 U' R' U' R U R U R U' R</li>
+          </ul>
+         </td>
+        </tr>
+        <tr class="k">
+         <td><p>Ub Perm</p></td>
+         <td><img src="/img/pll/PLL-Ub-perm.png" alt="Z Perm" /></td>
+         <td>
+          <ul>
+           <li></li>
+           <li>L2</li>
+          </ul>
+         </td>
+        </tr>
+
+       </table>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </article>
+
+
+</body>
+</html>
